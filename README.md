@@ -15,7 +15,7 @@ CRM Parameter Khusus Admin NuKu
 
 ## Cara Run Project
 
-Pertama, Clone Project Terlebih dahulu menggunakan <a href="#" target="_blank">Git Bash</a>
+Pertama, Clone Project Terlebih dahulu menggunakan <a href="https://git-scm.com/downloads" target="_blank">Git Bash</a>
 
 ```bash
 git clone https://github.com/ezazee/FE_CRM_NUKU.git
