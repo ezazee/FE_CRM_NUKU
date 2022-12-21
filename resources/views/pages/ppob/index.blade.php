@@ -55,309 +55,75 @@
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-12">
+                         <div class="row">
+                            <div class="col-xl-4">
                                 <div class="card widget-inline">
                                     <div class="card-body p-0">
                                         <div class="row g-0">
-                                            <div class="col-sm-6 col-lg-3">
-                                                <div class="card rounded-0 shadow-none m-0">
-                                                    <div class="card-body text-center">
-                                                        <i class="ri-bar-chart-2-line text-muted font-24"></i>
-                                                        <h3><span>1502</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Transaksi</p>
+                                            <div class="card cta-box bg-danger text-white">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="w-100 overflow-hidden">
+                                                            <h2 class="mt-0"><i class="mdi mdi-bullhorn-outline"></i></h2>
+                                                            <h3 class="m-0 fw-normal cta-box-title">PPOB Listrik (PLN)</h3>
+                                                        </div>
+                                                        <img class="ms-3" src="assets/images/svg/email-campaign.svg" width="120" alt="Generic placeholder image">
+                                                        </div>
                                                     </div>
+                                                    <!-- end card-body -->
                                                 </div>
-                                            </div>
-                
-                                            <div class="col-sm-6 col-lg-3">
-                                                <div class="card rounded-0 shadow-none m-0 border-start border-light">
-                                                    <div class="card-body text-center">
-                                                        <i class="ri-user-fill text-muted font-24"></i>
-                                                        <h3><span>15552</span></h3>
-                                                        <p class="text-muted font-15 mb-0">User Pengguna</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                
-                                            <div class="col-sm-6 col-lg-3">
-                                                <div class="card rounded-0 shadow-none m-0 border-start border-light">
-                                                    <div class="card-body text-center">
-                                                        <i class=" ri-store-3-fill text-muted font-24"></i>
-                                                        <h3><span>3241</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Toko / Merchant</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                
-                                            <div class="col-sm-6 col-lg-3">
-                                                <div class="card rounded-0 shadow-none m-0 border-start border-light">
-                                                    <div class="card-body text-center">
-                                                        <i class=" ri-motorbike-fill text-muted font-24"></i>
-                                                        <h3><span>4138</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Driver</p>
-                                                    </div>
-                                                </div>
-                                            </div>
 
-                                              <div class="col-sm-6 col-lg-3">
-                                                <div class="card rounded-0 shadow-none m-0 border-start border-light">
-                                                    <div class="card-body text-center">
-                                                        <i class="ri-building-4-fill text-muted font-24"></i>
-                                                        <h3><span>10</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Mitra Kabupaten</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                
-                                        </div> <!-- end row -->
+                                                <div class="card cta-box bg-danger text-white">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="w-100 overflow-hidden">
+                                                            <h2 class="mt-0"><i class="mdi mdi-bullhorn-outline"></i></h2>
+                                                            <h3 class="m-0 fw-normal cta-box-title">PPOB Listrik (PLN)</h3>
+                                                        </div>
+                                            <img class="ms-3" src="assets/images/svg/email-campaign.svg" width="120" alt="Generic placeholder image">
+                                        </div>
                                     </div>
-                                </div> <!-- end card-box-->
-                            </div> <!-- end col-->
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-6 grid-margin stretch-card">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <ul class="nav float-end d-none d-lg-flex">
-                                             <div>
-                                            <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                ALL
-                                            </button>
-                                            <button type="button" class="btn btn-soft-primary btn-sm">
-                                                1M
-                                            </button>
-                                            <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                6M
-                                            </button>
-                                            <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                1Y
-                                            </button>
+                                    <!-- end card-body -->
                                         </div>
-                                        </ul>
-                                        <h4 class="header-title mb-3">Chart Transaksi</h4>
-
-                                        <div dir="ltr">
-                                            <div id="spline-area" class="apex-charts mt-5" data-colors="#E62129, #000"></div>
-                                        </div>
-                                    </div> <!-- end card-body-->
-                                </div> <!-- end card-->
-                            </div>
-
-                            <!-- Top Mtra Kabupaten -->
-                        <div class="col-lg-6 grid-margin stretch-card">
-                            <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title p-2 border-bottom bg-light">Top Mitra Kabupaten / Kota</h4>
-                                <div class="table-responsive" style="overflow-y: scroll; height: 370px;">
-                                <table class="table table-hover">
-                                    <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Nama Kabupaten/Kota</th>
-                                        <th>Total Transaksi / Bulan</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Bitung</td>
-                                        <td>150</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Lamongan</td>
-                                        <td>250</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Madiun</td>
-                                        <td>590</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Garut</td>
-                                        <td>1000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Jogjakarta</td>
-                                        <td>1543</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Padang</td>
-                                        <td>423</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Jakarta</td>
-                                        <td>414</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Malang</td>
-                                        <td>3434</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Surabaya</td>
-                                        <td>4144</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Makasar</td>
-                                        <td>4124</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
-</div>
-</div>
-                        
+                         </div>
+
                         <div class="row">
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="d-flex card-header justify-content-between align-items-center">
-                                        <h4 class="header-title">Mitra Kabupaten NuKu di Indonesia</h4>
-                                        <div class="dropdown">
-                                            <a href="#" class="dropdown-toggle arrow-none card-drop"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="mdi mdi-dots-vertical"></i>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-end">
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
+                            <div class="col-xl-4">
+                                <div class="card cta-box bg-danger text-white">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="w-100 overflow-hidden">
+                                                <h2 class="mt-0"><i class="mdi mdi-bullhorn-outline"></i></h2>
+                                                <h3 class="m-0 fw-normal cta-box-title">PPOB Listrik (PLN)</h3>
                                             </div>
+                                            <img class="ms-3" src="assets/images/svg/email-campaign.svg" width="120" alt="Generic placeholder image">
                                         </div>
                                     </div>
-
-                                    
-                                    <div class="card-body pt-0">
-                                        <div class="row">
-                                            <div class="col-lg-8">
-                                                <div id="map" class="mt-3 mb-3" style="height: 300px">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4" dir="ltr" style="overflow-y: scroll; height: 370px;">
-                                                <h4 class="header-title">Daerah Yang Telah MoU dengan NuKu</h4>
-                                                 <table class="table table-hover">
-                                    <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Nama Kabupaten/Kota</th>
-                                        <th>Nama Aplikasi Daerah</th>
-                                        <th>Nama Provinsi</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Bitung</td>
-                                        <td>Nyaku Bitung</td>
-                                        <td>Sulawesi Utara</td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Lamongan</td>
-                                        <td>NikiLA</td>
-                                        <td>Jawa Timur</td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Garut</td>
-                                        <td>KitaGarut</td>
-                                        <td>Jawa Barat</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Madiun</td>
-                                        <td>Sistem Madiun</td>
-                                        <td>Jawa Timur</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Yogyakarta</td>
-                                        <td>Sistem Yogyakarta</td>
-                                        <td>Yogyakarta</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Padang</td>
-                                        <td>Sistem Padang</td>
-                                        <td>Sumatera Barat</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Malang</td>
-                                        <td>Sistem Malang</td>
-                                        <td>Jawa Barat</td>
-                                    </tr>
-
-                                     <tr>
-                                        <td>8</td>
-                                        <td>Jakarta</td>
-                                        <td>Sistem Jakarta</td>
-                                        <td>Jakarta Raya</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Surabaya</td>
-                                        <td>Sistem Surabaya</td>
-                                        <td>Jawa Timur</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Makasar</td>
-                                        <td>Sistem Makasar</td>
-                                        <td>Jawa Barat</td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
-                                            </div>
-                                        </div>
-                                    </div> <!-- end card-body-->
-                                </div> <!-- end card-->
+                                    <!-- end card-body -->
+                                </div>
                             </div> <!-- end col-->
                         </div>
-                        <!-- end row -->
 
+                           <div class="row">
+                            <div class="col-xl-4">
+                                <div class="card cta-box bg-danger text-white">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <div class="w-100 overflow-hidden">
+                                                <h2 class="mt-0"><i class="mdi mdi-bullhorn-outline"></i></h2>
+                                                <h3 class="m-0 fw-normal cta-box-title">PPOB Listrik (PLN)</h3>
+                                            </div>
+                                            <img class="ms-3" src="assets/images/svg/email-campaign.svg" width="120" alt="Generic placeholder image">
+                                        </div>
+                                    </div>
+                                    <!-- end card-body -->
+                                </div>
+                            </div> <!-- end col-->
                         </div>
-                        <!-- end row -->
 
-                    </div>
-                    <!-- container -->
-
-                </div>
-                <!-- content -->
-
-                <!-- Footer Start -->
-                @include('master.footer')
-                <!-- end Footer -->
-
-            </div>
-
-            <!-- ============================================================== -->
-            <!-- End Page content -->
-            <!-- ============================================================== -->
-
-        </div>
-        <!-- END wrapper -->
 
 
 

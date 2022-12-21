@@ -233,6 +233,12 @@ var simplemaps_countrymap_mapdata={
       lng: 106.902,
       name: "Makasar",
       description: "Makasar | Sistem Makasar"
+    },
+    "10": {
+      lat: -6.274,
+      lng: 106.485,
+      name: "Tanggerang",
+      description: "Tanggerang | Tanggerang Makasar"
     }
   },
   labels: {},

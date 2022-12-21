@@ -19,6 +19,9 @@
         <link href="{{ URL::asset('assets/vendor/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ URL::asset('assets/vendor/datatables.net-select-bs5/css/select.bootstrap5.min.css') }}" rel="stylesheet" type="text/css" />
 
+        <!-- Sweett Alert CSS -->
+        <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+
 
        <!-- Select2 Plugins css -->
       <link href="{{ URL::asset('assets/vendor/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />

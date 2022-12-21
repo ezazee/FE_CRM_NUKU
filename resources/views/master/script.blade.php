@@ -60,6 +60,36 @@
         <!-- Hyper Config JS -->
         <script src="{{ URL::asset('assets/js/hyper-config.js') }}"></script>
 
+        <!-- Widget JS -->
+        <script src="{{ URL::asset('assets/js/pages/demo.widgets.js') }}"></script>
+
+        <!-- Sweet Alert 2 JS -->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+        <script type="text/javascript">
+
+     $('.show_confirm').click(function(event) {
+          var form =  $(this).closest("form");
+          var name = $(this).data("name");
+          event.preventDefault();
+          Swal.fire({
+        title: "HAPUS DATA",
+        text: "Apakah Kamu Yakin Ingin Menghapus Data Ini ?",
+        icon: "warning",
+        showCancelButton: !0,
+        confirmButtonColor: "#34c38f",
+        cancelButtonColor: "#f46a6a",
+        confirmButtonText: "Ya, Hapus Saja!"
+      })
+          .then((result) => {
+            if (result.isConfirmed) {
+              form.submit();
+            }
+          });
+      });
+
+</script>
+
 
         <!-- App js -->
         <script src="{{ URL::asset('assets/js/app.js') }}"></script>

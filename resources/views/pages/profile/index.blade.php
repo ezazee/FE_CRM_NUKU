@@ -148,7 +148,7 @@
                                             <button type="button" class="btn btn-sm btn-light">View</button>
                                         </div>
                                         <h6 class="text-muted text-uppercase mt-0" title="Revenue">Revenue Mitra</h6>
-                                        <h4 class="mb-4 mt-2">Rp. 249.250.000</h4>
+                                        <h3 class="mb-4 mt-2">$6,254</h3>
                                         <div id="spark2" class="apex-charts mb-3" data-colors="#f4516c"></div>
 
                                         <div class="row text-center">
@@ -171,7 +171,7 @@
                                             <button type="button" class="btn btn-sm btn-light">View</button>
                                         </div>
                                         <h6 class="text-muted text-uppercase mt-0" title="Revenue">User Daftar</h6>
-                                        <h4 class="mb-4 mt-2">3224</h4>
+                                        <h3 class="mb-4 mt-2">324</h3>
                                         <div id="spark3" class="apex-charts mb-3" data-colors="#f4516c"></div>
 
                                        <div class="row text-center">
@@ -194,7 +194,7 @@
                                             <button type="button" class="btn btn-sm btn-light">View</button>
                                         </div>
                                         <h6 class="text-muted text-uppercase mt-0" title="Revenue">Mitra Daftar</h6>
-                                        <h4 class="mb-4 mt-2">5829</h4>
+                                        <h3 class="mb-4 mt-2">$4,745.2</h3>
                                         <div id="spark4" class="apex-charts mb-3" data-colors="#f4516c"></div>
 
                                         <div class="row text-center">

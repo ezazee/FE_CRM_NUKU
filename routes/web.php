@@ -22,9 +22,16 @@ use App\Http\Controllers\PromosiController;
 |
 */
 
+
 // Home Routing
 Route::get('/', function () {
     return view('index');
+});
+
+
+// Routing Profile Admin
+Route::get('/profile', function () {
+    return view('pages.profile.index');
 });
 
 
