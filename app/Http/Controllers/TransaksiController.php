@@ -21,9 +21,17 @@ class TransaksiController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function details()
+    public function details_anterin()
     {
-        return view('pages.transaksi.details');
+        return view('pages.transaksi.details_anterin');
+    }
+
+    public function details_belanjain() {
+        return view('pages.transaksi.details_belanjain');
+    }
+
+    public function details_kirimin() {
+        return view('pages.transaksi.details_kirimin');
     }
 
     /**

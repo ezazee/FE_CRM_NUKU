@@ -96,6 +96,8 @@
                                                             <th>Daerah Promo</th>
                                                             <th>Tgl Berlaku Promo</th>
                                                             <th>Status Promo</th>
+                                                            <th>Target Fitur Promosi</th>
+                                                            <th>Target Promosi</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
@@ -104,10 +106,12 @@
                                                         <tr>
                                                             <td> 1 </td>
                                                             <td> Diskon Ongkir 50% </td>
-                                                            <td> askfjshdfksjdhfsjdnf </td>
+                                                            <td> DISKONINAJA </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -121,8 +125,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -135,9 +141,11 @@
                                                             <td> 3 </td>
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
-                                                            <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td> Bitung </td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-danger-lighten">Tidak Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -151,8 +159,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-danger-lighten">Tidak Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -166,8 +176,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -181,8 +193,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-danger-lighten">Tidak Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -196,8 +210,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -211,8 +227,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -226,8 +244,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -241,8 +261,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -256,8 +278,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -271,8 +295,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>
@@ -286,8 +312,10 @@
                                                             <td> Diskon Ongkir 50% </td>
                                                             <td> askfjshdfksjdhfsjdnf </td>
                                                             <td> Lamongan </td>
-                                                            <td>2011/04/25</td>
+                                                            <td>12/23/2022 - 12/31/2022</td>
                                                             <td><h5><span class="badge badge-success-lighten">Aktif</span></h5></td>
+                                                            <td> Fitur Anterin </td>
+                                                            <td> User </td>
                                                            <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('promosi.edit') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Edit</a>

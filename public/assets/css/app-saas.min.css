@@ -130,6 +130,16 @@
     --ct-nav-tabs-link-active-bg:#fff;
     --ct-nav-tabs-link-active-border-color:#dee2e6 #dee2e6 var(--ct-nav-tabs-link-active-bg)
 }
+
+:root .nav-khusus{
+    --ct-nav-link-disabled-color:#8a969c;
+    --ct-nav-tabs-border-color:#dee2e6;
+    --ct-nav-tabs-link-hover-border-color:#eef2f7 #eef2f7 var(--ct-nav-tabs-border-color);
+    --ct-nav-tabs-link-active-color:#565e64;
+    --ct-nav-tabs-link-active-bg:#fff;
+    --ct-nav-tabs-link-active-border-color:#dee2e6 #dee2e6 var(--ct-nav-tabs-link-active-bg)
+}
+
 :root .navbar{
     --ct-navbar-light-color:#676f77;
     --ct-navbar-light-hover-color:#343a40;
@@ -4064,6 +4074,22 @@ textarea.form-control-lg{
     border-top-left-radius:0;
     border-top-right-radius:0
 }
+
+.nav-khusus{
+     --ct-nav-link-padding-x:1rem;
+    --ct-nav-link-padding-y:0.5rem;
+    --ct-nav-link-color:var(--ct-link-color);
+    --ct-nav-link-hover-color:var(--ct-link-hover-color);
+    --ct-nav-link-disabled-color:var(--ct-nav-link-disabled-color);
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-bottom:0;
+    list-style:none
+}
+
 .nav{
     --ct-nav-link-padding-x:1rem;
     --ct-nav-link-padding-y:0.5rem;

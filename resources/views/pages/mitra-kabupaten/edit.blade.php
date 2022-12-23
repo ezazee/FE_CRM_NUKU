@@ -5,7 +5,7 @@
 <!-- Mirrored from coderthemes.com/hyper_2/saas/dashboard-analytics.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2022 03:59:59 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>CRM Mitra Kabupaten | NusantaraKu Dashboard Admin</title>
+        <title> Edit Mitra Kabupaten | NusantaraKu Dashboard Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -54,7 +54,7 @@
                                             </a>
                                         </form>
                                     </div>
-                                    <h4 class="page-title">Mtra Kabupaten / Kota</h4>
+                                    <h4 class="page-title">Edit Mtra Kabupaten / Kota</h4>
                                 </div>
                             </div>
                         </div>
@@ -284,9 +284,84 @@
                                                 </div>
                                                <button type="button" class="btn btn-success">Simpan Perubahan</button>
                                                     </div>
+
+
+
                                                     <div class="tab-pane" id="kontak-b2">
-                                                        <p>Food truck quinoa dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-                                                        <p class="mb-0">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                                        <div class="card-body">
+                                                                <div class="col-lg-6">
+                                                                    <h2 class="header-title">Edit Alamat</h2>
+                                                                    <br>
+                                                                    <form>
+                                                                        <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nama Kategori</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="Alamat">
+                                                                        </div>
+
+                                                                        <div class="mb-3">
+                                                                            <label for="example-textarea" class="form-label">Tentang Aplikasi</label>
+                                                                            <textarea class="form-control" id="example-textarea" rows="3">Jl. Jaksa Agung Suprapto No.37, Tumenggungan, Kec,Lamongan, Kabupaten Lamongan, Jawa Timur 62214</textarea>
+                                                                         </div>
+                                                                    </form>
+                                                                </div> <!-- end col -->
+                                                            </div>
+
+
+                                                            <div class="card-body">
+                                                                <div class="col-lg-6">
+                                                                    <h2 class="header-title">Edit Nomor Telfon</h2>
+                                                                    <br>
+                                                                    <form>
+                                                                        <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nama Kategori</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="Nomor Telfon">
+                                                                        </div>
+
+                                                                       <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nomor</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="+6281322112286">
+                                                                        </div>
+                                                                    </form>
+                                                                </div> <!-- end col -->
+                                                            </div>
+
+
+                                                            <div class="card-body">
+                                                                <div class="col-lg-6">
+                                                                    <h2 class="header-title">Edit Nomor Whatsapp</h2>
+                                                                    <br>
+                                                                    <form>
+                                                                        <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nama Kategori</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="Nomor Whatsapp">
+                                                                        </div>
+
+                                                                       <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nomor</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="+6281322112286">
+                                                                        </div>
+                                                                    </form>
+                                                                </div> <!-- end col -->
+                                                            </div>
+
+                                                            
+                                                              <div class="card-body">
+                                                                <div class="col-lg-6">
+                                                                    <h2 class="header-title">Edit Email Kontak</h2>
+                                                                    <br>
+                                                                    <form>
+                                                                        <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nama Kategori</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="Nomor Email Kontak">
+                                                                        </div>
+
+                                                                       <div class="mb-3">
+                                                                            <label for="simpleinput" class="form-label">Nomor</label>
+                                                                            <input type="text" id="simpleinput" class="form-control" value="nikilaid@gmail.com">
+                                                                        </div>
+                                                                    </form>
+                                                                </div> <!-- end col -->
+                                                            </div>
                                                     </div>
                                                 </div>                                          
                                             </div> <!-- end preview-->

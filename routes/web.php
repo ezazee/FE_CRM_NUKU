@@ -55,7 +55,9 @@ Route::get('/role-akses', function () {
 
 // Menu Transaksi
 Route::get('/transaksi', [TransaksiController::class, 'index'])->name('transaksi');
-Route::get('/transaksi/details', [TransaksiController::class, 'details'])->name('transaksi.details');
+Route::get('/transaksi/details_anterin', [TransaksiController::class, 'details_anterin'])->name('transaksi.details_anterin');
+Route::get('/transaksi/details_belanjain', [TransaksiController::class, 'details_belanjain'])->name('transaksi.details_belanjain');
+Route::get('/transaksi/details_kirimin', [TransaksiController::class, 'details_kirimin'])->name('transaksi.details_kirimin');
 // END Menu Transaksi
 
 

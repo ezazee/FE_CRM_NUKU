@@ -64,7 +64,8 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <ul class="nav nav-bordered mb-3">
+                                        <div class="row">
+                                        <ul class="nav-khusus nav-bordered mb-3">
                                             <li class="nav-item ml-5">
                                                 <select class="form-select" id="status-select">
                                                     <option selected>Semua Transaksi</option>
@@ -80,7 +81,31 @@
                                                     <option value="10">Makasar</option>
                                                 </select>
                                             </li>
+
+                                            <ul class="nav-khusus nav-bordered mb-3">
+                                            <li class="nav-item ml-5">
+                                                <select class="form-select" id="status-select">
+                                                    <option selected>Semua Status</option>
+                                                    <option value="1">Dikirim</option>
+                                                    <option value="2">Di Proses</option>
+                                                    <option value="3">Dibatalkan</option>
+                                                </select>
+                                            </li>
                                         </ul> <!-- end nav-->
+
+                                         <ul class="nav-khusus nav-bordered mb-3">
+                                            <li class="nav-item ml-5">
+                                                <select class="form-select" id="status-select">
+                                                    <option selected>Semua Type</option>
+                                                    <option value="1">Anterin</option>
+                                                    <option value="2">Belanjain</option>
+                                                    <option value="3">Kirimin</option>
+                                                </select>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        
+                                        </ul> <!-- end nav-->
+                                        </div>
 
                                         <div class="tab-content" style="overflow: scroll;">
                                             <div class="tab-pane show active" id="basic-datatable-preview">
@@ -95,9 +120,10 @@
                                                             <th>Nama Merchant</th>
                                                             <th>Nama Pembeli</th>
                                                             <th>Total Order</th>
+                                                            <th>Type Order</th>
                                                             <th>Metode Pembayaran</th>
                                                             <th>Status Pembayaran</th>
-                                                            <th>Tgl Orer</th>
+                                                            <th>Tgl Order</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
@@ -111,13 +137,14 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
                                                            <td>
                                                                 <form action="#" >
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('transaksi.details') }}">Lihat</a>
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('transaksi.details_anterin') }}">Lihat</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
@@ -130,13 +157,14 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Belanjain </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
                                                           <td>
-                                                                <form action="#" method="POST">
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#">Lihat</a>
+                                                                <form action="#">
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('transaksi.details_belanjain') }}">Lihat</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
@@ -149,13 +177,14 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Kirimin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
                                                           <td>
-                                                                <form action="#" method="POST">
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#">Lihat</a>
+                                                                <form action="#">
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('transaksi.details_kirimin') }}">Lihat</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
@@ -168,7 +197,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -187,7 +217,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-danger-lighten">Dibatalkan</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -206,7 +237,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -225,7 +257,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -244,7 +277,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -263,7 +297,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -282,7 +317,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
@@ -301,7 +337,8 @@
                                                             <td >XjcLYFXjcLYFXjcLYF </td>
                                                             <td>Toko Reza Mentari</td>
                                                             <td>Reza</td>
-                                                            <td>Ro. 50.000</td>
+                                                            <td>Rp. 50.000</td>
+                                                            <td> Anterin </td>
                                                             <td>Saldo</td>
                                                              <td> <h5><span class="badge badge-success-lighten">Dibayar</span></h5> </td>
                                                              <td>2011/04/25</td>
