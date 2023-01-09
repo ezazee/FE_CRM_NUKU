@@ -10,6 +10,9 @@ use App\Http\Controllers\MdMerchantController;
 use App\Http\Controllers\TotalTopupController;
 use App\Http\Controllers\MitraKabupatenController;
 use App\Http\Controllers\PromosiController;
+use App\Http\Controllers\TransaksiAnterinController;
+use App\Http\Controllers\TransaksiBelanjainController;
+use App\Http\Controllers\TransaksiKiriminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,10 +57,17 @@ Route::get('/role-akses', function () {
 
 
 // Menu Transaksi
-Route::get('/transaksi', [TransaksiController::class, 'index'])->name('transaksi');
-Route::get('/transaksi/details_anterin', [TransaksiController::class, 'details_anterin'])->name('transaksi.details_anterin');
-Route::get('/transaksi/details_belanjain', [TransaksiController::class, 'details_belanjain'])->name('transaksi.details_belanjain');
-Route::get('/transaksi/details_kirimin', [TransaksiController::class, 'details_kirimin'])->name('transaksi.details_kirimin');
+    // Transaksi Anterin
+    Route::get('/transaksi-anterin', [TransaksiAnterinController::class, 'index'])->name('anterin');
+    Route::get('/transaksi-anterin/details', [TransaksiAnterinController::class, 'details'])->name('anterin.details');
+
+    // Transaksi Belanjain
+    Route::get('/transaksi-belanjain', [TransaksiBelanjainController::class, 'index'])->name('belanjain');
+    Route::get('/transaksi-belanjain/details', [TransaksiBelanjainController::class, 'details'])->name('belanjain.details');
+
+    // Transaksi Kirimin
+    Route::get('/transaksi-kirimin', [TransaksiKiriminController::class, 'index'])->name('kirimin');
+    Route::get('/transaksi-kirimin/details', [TransaksiKiriminController::class, 'details'])->name('kirimin.details'); 
 // END Menu Transaksi
 
 

@@ -62,15 +62,105 @@
                         <!-- Form Edit Table Data Kabupaten / Kota -->
                     <div class="row">
                             <div class="col-12">
-                                <div class="card">
+                               <div class="card">
                                     <div class="card-body">
-                                        <h2 class="header-title">Tambah Data Promosi / Diskon</h2>
-                                        <p class="text-muted font-14">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam ea minima. Quidem aspernatur natus delectus provident error quibusdam obcaecati qui perspiciatis ipsam, cupiditate quae neque repudiandae ducimus reprehenderit doloribus.
+                                        <h4 class="header-title">Isi Kolom Promosi</h4>
+                                        <p class="text-muted font-14 mb-3">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, cum!
                                         </p>
+                                        <div class="tab-content">
+                                            <div class="tab-panel show active" id="bordered-justified-tabs-preview">
+                                                <ul class="nav nav-tabs nav-justified nav-bordered mb-3">
+                                                    <li class="nav-item">
+                                                        <a href="#promosi-otomatis" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                            <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                            <span class="d-none d-md-block">Promosi Otomatis</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="#promosi-manual" data-bs-toggle="tab" aria-expanded="false" class="nav-link">
+                                                            <i class="mdi mdi-settings-outline d-md-none d-block"></i>
+                                                            <span class="d-none d-md-block">Promosi Manual</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+        
+                                                <div class="tab-content">
+                                                    <div class="tab-pane" id="promosi-otomatis">
                                         <div class="tab-content">
                                             <div class="tab-pane show active" id="input-types-preview">
                                                 <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <form>
+                                                            <div class="mb-3">
+                                                                <label for="simpleinput" class="form-label">Nama Promosi</label>
+                                                                <input required type="text" id="simpleinput" class="form-control" placeholder="Isi Nama Promosi">
+                                                            </div>
+        
+                                                            <div class="mb-3">
+                                                                <label for="example-select" class="form-label">Target Promosi</label>
+                                                                <select required class="form-select" id="example-select">
+                                                                     <option selected>Pilih Target</option>
+                                                                    <option value="1">User</option>
+                                                                    <option value="2">Merchant</option>
+                                                                    <option value="3">Driver</option>
+                                                                </select>
+                                                            </div>
+
+                                                             <div class="mb-3">
+                                                                <label for="example-select" class="form-label">Target Fitur Promosi</label>
+                                                                <select required class="form-select" id="example-select">
+                                                                     <option selected>Pilih Target Fitur</option>
+                                                                    <option value="1">Fitur Anterin</option>
+                                                                    <option value="2">Fitur Kirimin</option>
+                                                                    <option value="3">Fitur Belanjain</option>
+                                                                </select>
+                                                            </div>
+
+                                                        </form>
+                                                    </div> <!-- end col -->
+        
+                                                    <div class="col-lg-6">
+                                                        <form>
+                
+                                                           <div class="mb-3">
+                                                               <label for="example-disable" class="form-label">Kode Unik Promosi</label>
+                                                                <input type="text" class="form-control" id="example-disable" disabled="" value="IUSDGBksjfgsdkjg-askdjghAJSKF">
+                                                                <span class="help-block text-danger"><small>Kode Unik Ini Telah Diisi Otomatis</small></span>
+                                                            </div>
+                                                            
+                                                             <div class="mb-3">
+                                                                <label for="example-select" class="form-label">Target Daerah Promosi</label>
+                                                                <select required class="form-select" id="example-select">
+                                                                     <option selected>Semua Daerah</option>
+                                                                    <option value="1">Lamongan</option>
+                                                                    <option value="2">Bitung</option>
+                                                                    <option value="3">Madiun</option>
+                                                                    <option value="4">Garut</option>
+                                                                    <option value="5">Madiun</option>
+                                                                    <option value="6">Yogyakarta</option>
+                                                                    <option value="7">Padang</option>
+                                                                    <option value="8">Malang</option>
+                                                                    <option value="9">Surabaya</option>
+                                                                    <option value="10">Makasar</option>
+                                                                </select>
+                                                            </div>
+
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Tanggal Berlaku Promosi</label>
+                                                            <input required type="text" class="form-control date" id="singledaterange" data-toggle="date-picker" data-cancel-class="btn-warning">
+                                                        </div>
+                
+                                                        </form>
+                                                    </div> <!-- end col -->
+                                                </div>
+                                               <button type="button" class="btn btn-success">Tambah Promosi</button>
+                                                <!-- end row-->                      
+                                            </div> <!-- end preview-->
+                                        </div> <!-- end tab-content-->
+                                                    </div>
+                                                    <div class="tab-pane" id="promosi-manual">
+                                                       <div class="row">
                                                     <div class="col-lg-6">
                                                         <form>
                                                             <div class="mb-3">
@@ -136,11 +226,13 @@
                                                     </div> <!-- end col -->
                                                 </div>
                                                <button type="button" class="btn btn-success">Tambah Promosi</button>
-                                                <!-- end row-->                      
+                                                <!-- end row-->             
+                                                    </div>
+                                                </div>                                          
                                             </div> <!-- end preview-->
                                         </div> <!-- end tab-content-->
                                     </div> <!-- end card-body -->
-                                </div> <!-- end card -->
+                                </div> <!-- end card-->
                             </div><!-- end col -->
                         </div><!-- end row -->
 

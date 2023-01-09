@@ -64,10 +64,25 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="/transaksi" class="side-nav-link">
-                                <i class=" uil-analytics"></i>
+                            <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false"
+                                aria-controls="sidebarEcommerce" class="side-nav-link">
+                                <i class="uil-store"></i>
                                 <span> Transaksi </span>
+                                <span class="menu-arrow"></span>
                             </a>
+                            <div class="collapse" id="sidebarEcommerce">
+                                <ul class="side-nav-second-level">
+                                    <li>
+                                        <a href="/transaksi-anterin">Transaksi Anterin</a>
+                                    </li>
+                                    <li>
+                                        <a href="/transaksi-belanjain">Transaksi Belanjain</a>
+                                    </li>
+                                    <li>
+                                        <a href="/transaksi-kirimin">Transaksi Kirimin</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
 
                         <li class="side-nav-item">

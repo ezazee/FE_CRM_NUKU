@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TransaksiController extends Controller
+class TransaksiAnterinController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class TransaksiController extends Controller
      */
     public function index()
     {
-        return view('pages.transaksi.index');
+        return view('pages.transaksi.transaksi-antaerin.index');
     }
 
     /**
@@ -21,17 +21,9 @@ class TransaksiController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function details_anterin()
+    public function details()
     {
-        return view('pages.transaksi.details_anterin');
-    }
-
-    public function details_belanjain() {
-        return view('pages.transaksi.details_belanjain');
-    }
-
-    public function details_kirimin() {
-        return view('pages.transaksi.details_kirimin');
+        return view('pages.transaksi.transaksi-antaerin.details');
     }
 
     /**
